@@ -9,16 +9,26 @@
 /* shared styles */
 .bodyWidth{
     max-width: 1140px;
-    margin: 0 auto;
+    margin: 40px auto;
+}
+
+.sectionContent{
+    text-align: center;
+}
+.sectionContent .sectionTitle{
+    font-size: 32px;
+    font-weight: 800;
+    color: #0D1321;
+    margin-bottom: 10px;
 }
 .content_description{
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
     color: #0D1321;
-    padding: 32px 47px;
+    padding: 20px 190px;
 }
-/* navbar style */
+/* navbar styles */
 .navbar{
     display: flex;
     justify-content: space-between;
@@ -41,7 +51,7 @@
     background: none;
 }
 
-/* banner section design */
+/* banner section styles*/
 .banner{
     background: url(../assets/Hero-bg.png);
     background-size: cover;
@@ -79,19 +89,6 @@
     margin-bottom: 20px;
 }
 /* why development section styles */
-
-.whyDevelopmentContainer{
-    padding: 80px 0;
-}
-.whyDevelopmentContent{
-    text-align: center;
-}
-.whyDevelopmentContent .contentTitle{
-    font-size: 32px;
-    font-weight: 800;
-    color: #0D1321;
-    margin-bottom: 10px;
-}
 .developmentcard{
     display: flex;
     justify-content: space-between;
@@ -127,4 +124,13 @@
 }
 .cardContentExtra{
     margin-right: 0;
+}
+/* my inspiration section styles */
+.inspirationContentContainer{
+    padding: 24px;
+    text-align: center;
+}
+.InspirationVdo{
+    height: 550px;
+    width: 90%;
 }
