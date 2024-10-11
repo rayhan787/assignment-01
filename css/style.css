@@ -1,9 +1,22 @@
+
 *{
     margin: 0;
     padding: 0;
 }
 .fontstyle{
     font-family: "Azeret Mono", serif;
+}
+/* shared styles */
+.bodyWidth{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.content_description{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #0D1321;
+    padding: 32px 47px;
 }
 /* navbar style */
 .navbar{
@@ -45,7 +58,7 @@
     padding: 30px 0;
 }
 .banner-content .bannerimg{
-    padding: 23px 0;
+    margin-bottom: 20px;
 }
 .banner-content .banner_title{
     font-size: 45px;
@@ -54,13 +67,7 @@
     color: #0D1321;
     padding: 24px 0;
 }
-.banner-content .banner_description{
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 26px;
-    color: #0D1321;
-    padding: 32px 0;
-}
+
 .banner-content .btn input{
     font-size:20px;
     font-weight: 600;
@@ -70,4 +77,54 @@
     border: none;
     border-radius: 8px;
     margin-bottom: 20px;
+}
+/* why development section styles */
+
+.whyDevelopmentContainer{
+    padding: 80px 0;
+}
+.whyDevelopmentContent{
+    text-align: center;
+}
+.whyDevelopmentContent .contentTitle{
+    font-size: 32px;
+    font-weight: 800;
+    color: #0D1321;
+    margin-bottom: 10px;
+}
+.developmentcard{
+    display: flex;
+    justify-content: space-between;
+    padding: 45px;
+}
+.cardContent{
+    margin-right: 130px;
+    padding-right:80px ;
+}
+.cardContentTitle{
+    font-size: 24px;
+    line-height: 1.5;
+    font-weight: 700;
+    color: #0D1321;
+    padding: 10px 0;
+}
+.cardContenDescription{
+    padding: 15px 0;
+}
+.learnBtn{
+    margin-top: 15px;
+}
+.learnBtn a{
+    font-size: 20px;
+    font-weight: 600;
+    color: #0D1321;
+    text-decoration: none;
+    padding: 12px 20px;
+    border: 1px solid #0D1321;
+}
+.cardImgExtra{
+    margin-right: 100px;
+}
+.cardContentExtra{
+    margin-right: 0;
 }
