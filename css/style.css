@@ -80,15 +80,16 @@
     padding: 24px 0;
 }
 
-.banner-content .btn input{
+.banner-content .btn a{
     font-size:20px;
     font-weight: 600;
     color: #ffffff;
     background-color: #0D1321;
     padding: 20px 24px;
-    border: none;
     border-radius: 8px;
     margin-bottom: 20px;
+    display: inline-block;
+    text-decoration: none;
 }
 /* why development section styles */
 .developmentcard{
@@ -213,4 +214,46 @@
     font-weight: 700;
     color: #0D1321;
 }
-
+/* need Support section styles */
+#needSupport{
+    background: url(../assets/handshake.jpg), rgba(0, 0, 0,0.2);
+    background-size: cover;
+    background-position: center;
+    padding: 50px 0;
+    border-radius: 16px;
+}
+.supportContent{
+    text-align: center;
+}
+.supportContent h3{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    color: #ffffff;
+    margin-bottom: 16px;
+}
+.supportContent p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #dfd4d4;
+    margin-bottom: 16px;
+}
+.supportContent input{
+    font-size:16px;
+    font-weight: 400;
+    color: #c7b4b4;
+    background-color: #ffffff;
+    padding: 20px 215px 20px 20px;
+    border-radius: 8px;
+    border: none;
+}
+.supportContent button{
+    font-size: 20px;
+    font-weight: 600;
+    color: #0D1321;
+    background-color: #ffffff;
+    padding: 17px 20px;
+    border: none;
+    border-radius: 8px;
+}
