@@ -256,4 +256,36 @@
     padding: 17px 20px;
     border: none;
     border-radius: 8px;
+    cursor: pointer;
+}
+/* footer section styles */
+.footer{
+    /* background-color:rgba(13,19,33,0.4); */
+    background-color: #f8f8f8;
+    padding: 1px 0;
+}
+.footercontent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footercontent h3{
+    font-size: 20px;
+    font-weight: 600;
+    color: #0D1321;
+}
+.socialMedia{
+    padding-left: 15px;
+}
+.socialMedia i{
+    font-size: 26px;
+}
+.socialMedia .facebook{
+    color: #1877F2;
+}
+.socialMedia .github{
+    color: #161614;
+}
+.socialMedia .linkedin{
+    color: #1882ba;
 }
